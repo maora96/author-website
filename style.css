@@ -130,7 +130,7 @@ header .menu-desktop-left, .menu-desktop-right {
 /* BLOG SNIPPET */
 
 .blog-snippet {
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .blog-snippet h1 {
@@ -173,13 +173,24 @@ header .menu-desktop-left, .menu-desktop-right {
     color:#222222;
 }
 
+.blog-snippet .blog-post .container h2 a {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color:#8AC5C3; 
+    font-family: 'Cardo', serif;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: none;
+}
+
 .blog-snippet .blog-post .container h2 {
     margin-bottom: 15px;
     margin-top: 15px;
     color:#8AC5C3; 
     font-family: 'Cardo', serif;
-    font-size: 2.5em;
+    font-size: 1em;
     font-weight: normal;
+    text-transform: none;
 }
 
 
@@ -447,6 +458,8 @@ header .banner .container .banner-img {
 
 .blog-snippet .blog-post .container {
     margin-top:50px;
+    margin-right: 50px;
+    margin-bottom:50px;
 }
 
 .blog-snippet .blog-post .container h2 {
